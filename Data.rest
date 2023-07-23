@@ -1,0 +1,16 @@
+GET http://localhost:5008/api/cars
+
+###
+GET http://localhost:5008/api/cars/63e50ec406c22a474ec5d5be
+
+###
+POST http://localhost:5003/api/users
+Content-Type: "application/json"
+
+{
+    "userName": "Yaakov Misao 2023",
+    "userContact": "223333",
+    "userEmail": "email@email.com"
+}
+
+###
